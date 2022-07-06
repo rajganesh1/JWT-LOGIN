@@ -1,0 +1,31 @@
+{
+  "name": "jwt-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajganesh1/JWT-LOGIN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajganesh1/JWT-LOGIN/issues"
+  },
+  "homepage": "https://github.com/rajganesh1/JWT-LOGIN#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.19",
+    "randombytes": "^2.1.0"
+  }
+}
